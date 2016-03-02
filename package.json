@@ -1,0 +1,29 @@
+{
+  "name": "gulp-jade-test",
+  "version": "1.0.0",
+  "description": "Compilando jade con Gulp",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"test\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/luissardon/gulp-jade-test.git"
+  },
+  "keywords": [
+    "gulp",
+    "jade"
+  ],
+  "author": "@lmsardon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/luissardon/gulp-jade-test/issues"
+  },
+  "homepage": "https://github.com/luissardon/gulp-jade-test#readme",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-jade": "^1.1.0",
+    "gulp-sass": "^2.2.0",
+    "run-sequence": "^1.1.5"
+  }
+}

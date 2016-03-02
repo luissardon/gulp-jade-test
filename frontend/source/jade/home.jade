@@ -1,0 +1,14 @@
+doctype html
+html(lang="es-PE")
+    head
+        title="Compilando Jade con Gulp"
+    body
+        h1.
+            Compilando Jade con Gulp
+        p.
+            Este es un ejemplo de como compilar Jade usando Gulp
+            
+        p
+            - var localVersion = new Date().getTime()
+            - var test = "<?php echo \"TEST\" ?>"
+            | #{version}_#{localVersion}_!{test}

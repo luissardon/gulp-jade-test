@@ -1,0 +1,46 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+::-webkit-input-placeholder { color: #999999; } /* WebKit browsers */
+:-moz-placeholder           { color: #999999; } /* Mozilla Firefox 4 to 18 */
+::-moz-placeholder          { color: #999999; } /* Mozilla Firefox 19+ */
+:-ms-input-placeholder      { color: #999999; } /* Internet Explorer 10+ */
+
+body, html
+{
+    height: 100%;
+    outline: none;
+}
+
+img
+{
+    vertical-align: bottom;
+}
+
+input, textarea, select, button
+{
+    outline: none;
+    resize: none;
+}
+
+a, a:link, a:visited, a:active, a:hover
+{
+    text-decoration: none;
+}
+
+a[href], input[type='submit'], input[type='image'], label[for], select, button, .pointer
+{
+    cursor: pointer;
+}
+
+body
+{
+    background-color: #FFFFFF;
+    font-family: tahoma, serif;
+    font-size: 13px;
+    padding: 0;
+    margin: 0;
+}
